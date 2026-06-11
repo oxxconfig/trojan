@@ -11,7 +11,11 @@ bash <(curl -fsSL https://raw.githubusercontent.com/oxxconfig/trojan/refs/heads/
 
 Bash
 systemctl daemon-reload
+
 systemctl enable nginx
+
 systemctl restart nginx
+
 systemctl enable trojan
+
 systemctl restart trojan
