@@ -10,8 +10,13 @@ bash <(curl -fsSL https://raw.githubusercontent.com/oxxconfig/trojan/refs/heads/
 在某些更新的 Debian/Ubuntu 系统中，安装 nginx 后默认的系统服务名是 nginx.service。 Nginx 的部分修改为更标准的形式：
 
 Bash
+
 systemctl daemon-reload
+
 systemctl enable nginx
+
 systemctl restart nginx
+
 systemctl enable trojan
+
 systemctl restart trojan
